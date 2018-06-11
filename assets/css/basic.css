@@ -46,6 +46,10 @@ body {
 }
 
 @media screen and (max-width: 800px) {
+    body {
+        background: url('../images/back.jpg') no-repeat center center scroll;
+        background-size: cover;
+    }
     #container {
         width: 85%;
         left: 7.5%;
