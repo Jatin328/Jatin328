@@ -9,13 +9,14 @@ body {
 }
 
 #container {
-    width: 500px;
-    height: 500px;
+    width: 40%;
+    height: 30rem;
     position: relative;
     top: 100px;
-    left: calc(50% - 250px);
+    left: 30%;
     background-color: rgba(255, 255, 255, 0.4);
     text-align: center;
+    border-radius: 2.5%;
 }
 
 #container img {
@@ -36,9 +37,20 @@ body {
 }
 
 #container p{
+    padding: 10%;
     position: absolute;
     bottom: 30px;
     color: rgb(0,55,205);
     font-size: 20px;
     font-family: caviarDreams;
+}
+
+@media screen and (max-width: 800px) {
+    #container {
+        width: 85%;
+        left: 7.5%;
+    }
+    #container p{
+        font-size: 17px;
+    }
 }
