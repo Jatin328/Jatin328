@@ -1,0 +1,176 @@
+@font-face {
+	font-family: 'raleway';
+	src: url('Raleway-Regular.ttf');
+}
+
+@font-face {
+	font-family: 'head';
+	src: url('quarz.ttf');
+}
+
+@font-face {
+	font-family: 'curwen';
+	src: url('curwen-sans.regular.ttf');
+}
+
+* {
+	border: 0;
+	padding: 0;
+	margin: 0;
+	vertical-align: baseline;
+}
+
+html {
+	font-family: 'curwen';
+	font-weight: 300;
+}
+
+body {
+	width: 100%;
+	background: url('images/background.jpg') no-repeat center center fixed;
+	background-size: cover;
+	line-height: 1.2;
+	font-size: 20px;
+}
+
+
+header {
+	width: 80%;
+	margin: 3em auto 0 auto;
+	color: white;
+	text-align: center;
+}
+
+h2 {
+	font-size: 3em;
+	text-align: center;
+	margin: 30px auto;
+}
+
+h3 {
+	font-size: 2.5em;
+	margin: 20px auto;
+	color: #4a4f59;
+}
+
+#hi {
+	font-size: 2em;
+}
+
+.wrapper {
+	width: 80%;
+	margin: 1em auto 0 auto;
+	background-color: white;
+	box-shadow: 0 15px 20px rgba(0, 0, 0, 0.7);
+}
+
+#starter {
+	width: 100%;
+}
+
+/* container */
+
+.container_text {
+	width: 100%;
+}
+
+.container_text p{
+	width: 85%;
+	margin: 50px auto;
+	color: #353a42;
+}
+
+.container_text h3{
+	text-align: center;
+}
+
+/* images */
+
+.images {
+	width: 100%;
+	background-color: #262a30;
+}
+
+.images h2{
+	color: #bbc3ce;
+	width: 100%;
+	background-color: black;
+	margin-bottom: 0;
+	padding-bottom: 30px;
+}
+
+.image_container {
+	width: 85%;
+	margin: 10px auto 0 auto;
+	padding: 70px;
+}
+
+.image_container img {
+	width: 50%;
+	margin: 0;
+}
+
+.lft {
+	float: left;
+}
+
+.rft {
+	float: right;
+}
+
+/* summary_checkerboard */
+
+.summary_checkerboard {
+	width: 100%;
+}
+
+.summary_checkerboard img {
+	width: 50%;
+}
+
+.spotlight_a {
+	overflow: hidden;
+	position: relative;
+	text-align: center;
+}
+
+.spotlight_a img {
+	float: left;
+}
+
+.spotlight_a p{
+	padding-top: +50px;
+}
+
+.spotlight_b {
+	overflow: hidden;
+	position: relative;
+	background-color: #262a30;
+	color: #353a42;
+	text-align: center;
+}
+
+.spotlight_b h3 {
+	color: #bbc3ce;
+}
+
+.spotlight_b img {
+	float: right;
+}
+
+.spotlight_b p{
+	padding-top: +50px;
+}
+/* footer */
+
+footer {
+	width: 80%;
+	margin: 3em auto 3em auto;
+	color: white;
+	text-align: center;
+}
+
+
+
+
+
