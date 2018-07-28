@@ -5,7 +5,7 @@
 
 @font-face {
 	font-family: 'head';
-	src: url('quarz.ttf');
+	src: url('DalekPinpointBold.ttf');
 }
 
 @font-face {
@@ -31,6 +31,10 @@ body {
 	background-size: cover;
 	line-height: 1.2;
 	font-size: 20px;
+}
+
+h1, h2, h3 {
+	font-family: 'head';
 }
 
 
@@ -96,13 +100,11 @@ h3 {
 	width: 100%;
 	background-color: black;
 	margin-bottom: 0;
-	padding-bottom: 30px;
 }
 
 .image_container {
 	width: 85%;
 	margin: 10px auto 0 auto;
-	padding: 70px;
 }
 
 .image_container img {
@@ -168,6 +170,57 @@ footer {
 	margin: 3em auto 3em auto;
 	color: white;
 	text-align: center;
+}
+
+/* responsive */
+
+
+
+@media only screen and (max-width: 768px) {
+	body {
+		background-image: url('images/background_mobiles.jpg') no-repeat top center;
+		background-attachment: scroll;
+	}
+	
+	.wrapper {
+		width: 95%;
+	}
+	
+	.image_container img {
+		float: none;
+		width: 95%;
+		margin-bottom: 20px;
+	}
+
+	.image_container h2{
+		margin-top: 30px;
+	}
+
+	.image_container {
+		width: 95%;
+		overflow: hidden;
+		margin: 10px auto 0 auto;
+		text-align: center;
+	}
+
+
+	.summary_checkerboard {
+		overflow: hidden;
+		margin: 0 auto;
+	}
+
+	.summary_checkerboard img{
+		float: none;
+		width: 100%;
+	}	
+
+	.spotlight_a {
+		overflow: hidden;
+		margin: 0 auto;
+	}
+
+	
+
 }
 
 
