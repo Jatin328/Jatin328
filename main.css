@@ -148,7 +148,7 @@ h3 {
 	overflow: hidden;
 	position: relative;
 	background-color: #262a30;
-	color: #353a42;
+	color: #656a82;
 	text-align: center;
 }
 
@@ -178,8 +178,8 @@ footer {
 
 @media only screen and (max-width: 768px) {
 	body {
-		background-image: url('images/background_mobiles.jpg') no-repeat top center;
-		background-attachment: scroll;
+		background: url('images/background_mobiles.jpg') no-repeat top center scroll;
+		background-size: cover;
 	}
 	
 	.wrapper {
